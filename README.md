@@ -29,11 +29,19 @@ passwd root
 
 
 手动
+
 ```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/2511052/Note/master/InstallNET.sh' && chmod a+x InstallNET.sh```
+
 bash InstallNET.sh -d 11 -v 64 -p 2511052 -a
+
 Debian -d `7 8 9 10 11`
+
 ubuntu -u `12.04 14.04 16.04 18.04 20.04`
+
 centos -c `6.10`
+
 预设密码：-p
+
 全自动：-a
+
 系统位数：-v 32-64
